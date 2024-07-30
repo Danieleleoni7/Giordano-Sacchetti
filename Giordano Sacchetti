@@ -8,7 +8,7 @@
         body {
             text-align: center;
             font-family: Arial, sans-serif;
-            background: url('C:\Users\moabl\Downloads\WhatsApp Image 2024-07-30 at 18.59.16.jpeg') no-repeat center center fixed;
+            background: url('https://drive.google.com/file/d/1H4iueXgJfn9WRaTmHLHECJ99VufoaHTI/view?usp=drive_link') no-repeat center center fixed;
             background-size: cover; /* Assicura che l'immagine copra tutto lo sfondo */
             color: #333; /* Colore del testo */
             margin: 0;
@@ -45,7 +45,7 @@
 </head>
 <body>
     <h1>Giordano Sacchetti</h1>
-    <img src="C:\Users\moabl\Downloads\WhatsApp Image 2024-04-21 at 15.52.54.jpeg" alt="Descrizione della nuova immagine">
+    <img src="https://drive.google.com/file/d/1ePJP5lgknB5exIyZrBJbZAR7aUTZc6Vt/view?usp=sharing" alt="Descrizione della nuova immagine">
     
     <!-- Pulsante per la musica -->
     <button id="play-music">Avvia Musica</button>
@@ -58,7 +58,7 @@ Grande appassionato di moto e di palestra, bravo a scuola e pieno di amici."></t
     
     <!-- Audio -->
     <audio id="background-music" class="hidden" loop>
-        <source src="C:\Users\moabl\Downloads\Emis Killa - Serio (prod. by AVA) ft. Capo Plaza.mp3" type="audio/mpeg">
+        <source src="https://drive.google.com/file/d/1WIplXFI0eZp0F-C-z2Z3BhBX4DMuaPNl/view?usp=drive_link" type="audio/mpeg">
         Il tuo browser non supporta l'elemento audio.
     </audio>
 

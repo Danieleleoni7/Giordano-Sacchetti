@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giordano Sacchetti</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background: url('C:\Users\moabl\Downloads\WhatsApp Image 2024-07-30 at 18.59.16.jpeg') no-repeat center center fixed;
+            background-size: cover; /* Assicura che l'immagine copra tutto lo sfondo */
+            color: #333; /* Colore del testo */
+            margin: 0;
+            padding: 20px;
+        }
+        img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        #text-container {
+            margin-top: 20px;
+            text-align: left;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        textarea {
+            width: 100%;
+            height: 200px;
+            font-size: 16px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+            background-color: #f9f9f9; /* Colore di sfondo dell'area di testo */
+            resize: none; /* Impedisce il ridimensionamento dell'area di testo */
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Giordano Sacchetti</h1>
+    <img src="C:\Users\moabl\Downloads\WhatsApp Image 2024-04-21 at 15.52.54.jpeg" alt="Descrizione della nuova immagine">
+    
+    <!-- Pulsante per la musica -->
+    <button id="play-music">Avvia Musica</button>
+    
+    <!-- Sezione di testo scrivibile -->
+    <div id="text-container">
+        <textarea id="user-text" placeholder="Giordano Sacchetti un ragazzo nato il 22/11/2006 amato da tutte le persone che lo hanno conosciuto viene ricordato per il suo sorriso e la sua bontà d'animo che lo contraddistingueva dalla massa e che lo rendeva speciale e amato da tutti.
+Grande appassionato di moto e di palestra, bravo a scuola e pieno di amici."></textarea>
+    </div>
+    
+    <!-- Audio -->
+    <audio id="background-music" class="hidden" loop>
+        <source src="C:\Users\moabl\Downloads\Emis Killa - Serio (prod. by AVA) ft. Capo Plaza.mp3" type="audio/mpeg">
+        Il tuo browser non supporta l'elemento audio.
+    </audio>
+
+    <script>
+        document.getElementById('play-music').addEventListener('click', function() {
+            var backgroundMusic = document.getElementById('background-music');
+            
+            backgroundMusic.classList.remove('hidden');
+            backgroundMusic.play().catch(function(error) {
+                console.log('Autoplay failed:', error);
+            });
+        });
+    </script>
+</body>
+</html>
